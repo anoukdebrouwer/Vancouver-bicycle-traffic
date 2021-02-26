@@ -34,7 +34,7 @@ I then fitted a **random forest regression model** to the data, determining the 
 
 ### Data files
 
-* Bicycle-counts_Vancouver.csv - raw bicycle count data downloaded from the [City of Vancouver website](https://vancouver.ca/streets-transportation/how-we-collect-bike-volumes.aspx). 
+* Bicycle-volume-data.xlsx - raw bicycle count data downloaded from the [City of Vancouver website](https://vancouver.ca/streets-transportation/how-we-collect-bike-volumes.aspx). 
 
 * Climate-daily_VancouverAP-2018.csv, Climate-daily_VancouverAP-2019.csv, Climate-daily_VancouverAP-2020.csv - raw weather data downloaded from the [Government of Canada climate website](https://climate.weather.gc.ca/historical_data/search_historic_data_e.html)
 
