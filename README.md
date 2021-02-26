@@ -1,5 +1,5 @@
 # Bicycle-counts
-Python project visualizing and predicting bicycle counts in Vancouver, BC.
+Personal data science project in Python visualizing and predicting bicycle counts in Vancouver, BC.
 
 The City of Vancouver has bike counters along popular bike routes at 19 different locations in the city. The goal of this project is to predict bicycle counts using weather data and information about the day. 
 
@@ -13,7 +13,7 @@ The **bicycle count data** was obtained from the [City of Vancouver website](htt
 
 The **weather data** can be downloaded from the [Government of Canada climate website](https://climate.weather.gc.ca/historical_data/search_historic_data_e.html). I chose to use the data from the Vancouver Airport weather station, because the data from the Vancouver Harbour weather station (closer to the city) had a lot of missing values. The dataset contains daily information about temperature (mean, min and max), precipitation (total rain, total snow, total precipitation, and snow on the ground), and wind (speed and direction of maximum gust). 
 
-<img src="/Temperature_2019.png" width="380">  
+<img src="/Temperature_2019.png" width="380"> <img src="/Precipitation_2019.png" width="375">
 
 Because the bicycle count data is available from August 1st 2018, and the data from mid March 2020 might be affected by people working from home during the COVID-19 pandemic, I chose to use the 2019 data as the **training set**, and the 2020 data up to March 15th as the **test set**. Since the training set is small, I don't expect any of the models to perform excellently.
 
