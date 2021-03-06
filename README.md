@@ -9,11 +9,11 @@ The City of Vancouver has bike counters along popular bike routes at 19 differen
 
 The **bicycle count data** was obtained from the [City of Vancouver website](https://vancouver.ca/streets-transportation/how-we-collect-bike-volumes.aspx). Daily counts are available from August 1st, 2018. Of the 19 counters, the Burrard at Cornwall counter gets the most traffic, with on average about 4000 bicycles per day. I used this as the target variable.
 
-<img src="/Bike-counts_2019_Burrard-at-Cornwall.png" width="600">
+<img src="/Figures/Bike-counts_2019_Burrard-at-Cornwall.png" width="600">
 
 The **weather data** can be downloaded from the [Government of Canada climate website](https://climate.weather.gc.ca/historical_data/search_historic_data_e.html). I chose to use the data from the Vancouver Airport weather station, because the data from the Vancouver Harbour weather station (closer to the city) had a lot of missing values. The dataset contains daily information about temperature (mean, min and max), precipitation (total rain, total snow, total precipitation, and snow on the ground), and wind (speed and direction of maximum gust). 
 
-<img src="/Temperature_2019.png" width="380"> <img src="/Precipitation_2019.png" width="375">
+<img src="/Figures/Temperature_2019.png" width="380"> <img src="/Figures/Precipitation_2019.png" width="375">
 
 Because the bicycle count data is available from August 1st 2018, and the data from mid March 2020 might be affected by people working from home during the COVID-19 pandemic, I chose to use the 2019 data as the **training set**, and the 2020 data up to March 15th as the **test set**. Since the training set is small, I don't expect any of the models to perform excellently.
 
